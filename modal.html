@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>모달</title>
+</head>
+
+<body>
+    <header class="content-header">
+        <h1 class="header-title">로그인 또는 회원가입</h1>
+        <a href="" class="link-close">
+            <img class="img-close" src="images/close.png" alt="닫기">
+        </a>
+    </header>
+    <main class="content-main">
+        <section class="content-login">
+            <h2 class="blind">로그인 섹션</h2>
+            <p class="login-text">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+            <form class="content-loginform" action="" method="get">
+                <input class="login-id" type="text" id="id" name="id"  placeholder="아이디">
+                <input class="login-pw" type="password" id="pw" name="pw"  placeholder="비밀번호">
+                <input class="login-checkbox" id="login-checkbox" type="image" src="images/check-box.png">
+                <label class="checkbox-label" for="login-checkbox">로그인 상태 유지</label>
+                <input class="login-button" type="submit" value="로그인">
+            </form>
+            <div class="wrap-link">
+                <a href="" class="link-signup">회원가입</a>
+                |
+                <a href="" class="link-find">아이디/비밀번호찾기</a>
+            </div>
+            <div class="line-separator">또는</div>
+        </section>
+        <section class="content-others">
+            <h2 class="blind">다른 계정으로 로그인</h2>
+            <ul class="login-list">
+                <li>
+                    <a class="link-google" href="">
+                        구글 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a class="link-facebook" href="">
+                        페이스북 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a class="link-naver" href="">
+                        네이버 계정으로 로그인
+                    </a>
+                </li>
+                <li>
+                    <a class="link-kakao" href="">
+                        카카오톡 계정으로 로그인
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
