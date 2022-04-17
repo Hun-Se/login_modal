@@ -11,4 +11,3 @@
   https://www.youtube.com/watch?v=fKyLCIqWjIY&t=270s
 
 - css sprites generator: https://www.toptal.com/developers/css/sprite-generator/
-# login_modal

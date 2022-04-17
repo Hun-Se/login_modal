@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+input[id="login-checkbox"] {
+    display: none;
+}
+
 .blind {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -92,17 +96,31 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
 }
+.login-checkbox + .checkbox-label>span{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background: url(images/uncheck-box.png);
+    vertical-align: sub;
+    cursor: pointer;
+}
 
 .login-checkbox {
     vertical-align: middle;
 }
 
+.login-checkbox:checked + .checkbox-label>span   {
+    background: url(images/check-box.png);
+}
 .checkbox-label {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #767676;
 }
+
+
 
 .login-button {
     background-color: #2F80ED;
