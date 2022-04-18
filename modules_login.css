@@ -1,57 +1,30 @@
-a {
-    text-decoration: none;
+/* 모듈 */
+/* 로그인 버튼 모듈 */
+.move-login-button {
+    display: block;
+    width: 440px;
+    padding: 14px;
+    background: #2F80ED;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
 }
 
+.btn-close {
+    position: absolute;
+    padding: 18px 24px;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent
+}
+
+/* 인풋 모듈 */
 input[id="login-checkbox"] {
     display: none;
-}
-
-.blind {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-}
-
-body {
-    position: absolute;
-    width: 520px;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.content-header {
-    padding: 20px 22px 18px;
-    text-align: center;
-    line-height: 20px;
-    border-bottom: 1px solid #C4C4C4;
-    overflow: hidden;
-}
-
-.content-header .header-title {
-    display: inline-block;
-    font-weight: 500px;
-    font-size: 16px;
-}
-
-.content-header .link-close {
-    float: right;
-}
-
-.link-close .img-close {
-    width: 16px;
-    height: 16px;
-    color: #767676;
-}
-
-.content-main {
-    padding: 26px 24px 15px;
 }
 
 .content-login {
@@ -138,53 +111,7 @@ body {
     color: #FFFFFF;
 }
 
-.wrap-link {
-    margin: 20px auto;
-    text-align: center;
-    color: #767676;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.link-signup, .link-find {
-    color: #767676;
-    margin: 0 12px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.line::after {
-    content: '\007c';
-}
-
-.line-separator {
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #767676;
-}
-
-.line-separator::before {
-    float: left;
-    margin-top: 5px;
-    content: '';
-    width: 210px;
-    border-bottom: 1px solid #C4C4C4;
-}
-
-.line-separator::after {
-    float: right;
-    margin-top: 5px;
-    content: '';
-    width: 210px;
-    border-bottom: 1px solid #C4C4C4;
-}
-
-/* section 2*/
-
+/* 소셜 로그인 버튼 모듈 */
 ul a[class^="link"] {
     display: block;
     margin-bottom: 10px;
@@ -240,18 +167,4 @@ ul a[class^="link"]::before {
 
 .link-kakao::before {
     background: url(images/css_sprites.png)-10px -10px;
-}
-
-.btn-close {
-    position: absolute;
-    padding: 18px 24px;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent
-}
-
-.btn-img {
-    width: 20px;
-    height: 20px;
 }
