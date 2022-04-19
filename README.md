@@ -3,7 +3,7 @@
 <img src = "images/로그인구현1.png">
 <img src = "images/로그인 구현2.png">
 
-구현페이지:https://hun-se.github.io/login_modal/index.html
+완성페이지:https://hun-se.github.io/login_modal/index.html
 
 ## 배운점
 
@@ -27,12 +27,16 @@
 
     10. 자주쓰는 요소들은 모듈화하여 만들어 놓기
 
+    11. 레티나 디스플레이는 애플 lcd 제품의 이름이며 타사의 화면보다 고해상도 화면을 표현하기 위하여 인간의 눈으로 화소를 구분할 수 없는 화소밀도를 주어서(300 PPI이상) 논리픽셀과 물리픽셀 간의 차이가 발생한다. 이를 해결하기 위해서는 화면에 그리고자 하는 사이즈의 2배가 되는 이미지를 준비하고 적용할때에는 원하는 사이즈의 속성으로 조절해주어 해결 해줄 수 있다.
+
 - image sprites 사용법 강의:
   https://www.youtube.com/watch?v=fKyLCIqWjIY&t=270s
 
 - css sprites generator: https://www.toptal.com/developers/css/sprite-generator/
 
-## 2022.04.18 수정상항
+- 레티나 대응 이미지스프라이트 참고사이트: https://zinee-world.tistory.com/542
+
+## 2022.04.18 수정사항
 
 - 로고와 같이 정보가 있는 이미지에는 alt값을 주어 자세한 정보를 표시해 주었다.
 
@@ -83,3 +87,7 @@
 - label에 백그라운드 이미지를 주고 label에 가상선택자 before과 checked를 사용해서 로그인유지 체크박스 변화를 주었다.
 
 - 모듈추가
+
+## 2022.4.19 추가사항 및 수정
+
+- 레티나디스플레이를 고려한 기존 크기의 2배의 아이콘 이미지 스프라이트를 추가하였다.
